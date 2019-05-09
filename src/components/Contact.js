@@ -12,8 +12,10 @@ class App extends Component {
 		// console.log(this.state.recaptcha)
 		await fetch('https://bobby-be.netlify.com', {
 			method: 'POST',
+			
 			headers: {
-				'Content-Type': 'application/json'
+				'Content-Type': 'application/json',
+				'Access-Control-Allow-Origin': '*'
 			},
 			body: JSON.stringify({ post: this.state.post })
 		});
