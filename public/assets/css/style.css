@@ -68,27 +68,27 @@ body button {
 }
 
 input[type="email"] {
-    padding-left: 10px!important;
+    padding-left: 0!important;
 }
 
 ::-webkit-input-placeholder {
     opacity: 1;
-    padding-left: 10px;
+    padding-left: 0;
 }
 
 ::-moz-placeholder {
     opacity: 1;
-    padding-left: 10px;
+    padding-left: 0;
 }
 
 :-ms-input-placeholder {
     opacity: 1;
-    padding-left: 10px;
+    padding-left: 0;
 }
 
 :-moz-placeholder {
     opacity: 1;
-    padding-left: 10px;
+    padding-left: 0;
 }
 
 ::-moz-selection {
