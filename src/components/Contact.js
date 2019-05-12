@@ -10,7 +10,7 @@ class App extends Component {
 	handleSubmit = async (e) => {
 		e.preventDefault();
 		// console.log(this.state.recaptcha)
-		await fetch('https://bobby-be-iycbwgqctj.now.sh/api/email', {
+		await fetch('https://bobby-be.now.sh/api/email', {
 			method: 'POST',
 			
 			headers: {
