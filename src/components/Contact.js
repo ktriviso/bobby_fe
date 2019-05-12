@@ -10,7 +10,7 @@ class App extends Component {
 	handleSubmit = async (e) => {
 		e.preventDefault();
 		// console.log(this.state.recaptcha)
-		await fetch('https://bobby-be.netlify.com', {
+		await fetch('https://bobby-be.netlify.com/api/email', {
 			method: 'POST',
 			
 			headers: {
